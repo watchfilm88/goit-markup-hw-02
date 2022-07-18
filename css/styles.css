@@ -61,7 +61,7 @@ body {
 }
 
 .link:hover,
-:focus {
+.link:focus {
   color: var(--text-acent-color);
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .btn:hover,
-:focus {
+.btn:focus {
   background-color: var(--text-acent-color);
   color: var(--text-white-color);
 }
@@ -92,6 +92,8 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--text-acent-color);
+  color: var(--text-white-color);
 }
 
 .title {
